@@ -1,0 +1,351 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header { grid-area: header; }
+.banner1 { grid-area: bannerA; }
+.banner2 { grid-area: bannerB; }
+.banner3 { grid-area: bannerC; }
+.link { grid-area: link; }
+.main { grid-area: main; }
+.left-footer { grid-area: left-footer; }
+.right-footer { grid-area: right-footer; }
+.footer { grid-area: footer; }
+
+.website {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'bannerA bannerA bannerB bannerB bannerC bannerC'
+    'link link link link link link'
+    'main main main main main main'
+    'left-footer left-footer left-footer right-footer right-footer right-footer'
+    'footer footer footer footer footer footer';
+  grid-gap: 0px;
+  background-color: black;
+  font-family: 'Archivo', sans-serif;
+  margin: 0px 250px 0px 250px;
+  width: 1000px;
+}
+.website > .header {
+  background-color: white;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.logo_img {
+  position: relative;
+  margin: 0px 0px 12px 30px;
+  text-align: left;
+  width: 262px;
+  height: 25px;
+}
+.home { grid-area: home; }
+.over_ons { grid-area: over_ons; }
+.portfolio { grid-area: portfolio; }
+.nieuws { grid-area: nieuws; }
+.contact { grid-area: contact; }
+.niks { grid-area: niks; }
+
+.a {
+  display: grid;
+  grid-template-areas: 
+  'home over_ons portfolio nieuws contact niks niks niks niks niks niks niks niks niks niks niks niks niks niks niks niks niks niks niks';
+  grid-gap: 10px;
+  background-color: #222931;
+  margin: 0px 25px 0px 25px;
+  width: 950px;
+}
+.a > .home {
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: white;
+}
+.a > .home:hover {
+  background-color: #ffe718;
+  color: #222931;
+}
+.a > .over_ons {
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+.a > .over_ons:hover {
+  background-color: #ffe718;
+  color: #222931;
+}
+.over_ons-submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.over_ons:hover .over_ons-submenu {
+    display: block;
+}
+.a > .portfolio {
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: white;
+}
+.a > .portfolio:hover {
+  background-color: #ffe718;
+  color: #222931;
+}
+.a > .nieuws {
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: white;
+}
+.a > .nieuws:hover {
+  background-color: #ffe718;
+  color: #222931;
+}
+.a > .contact {
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: white;
+}
+.a > .contact:hover {
+  background-color: #ffe718;
+  color: #222931;
+}
+.a > .niks {
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0 20px;
+  color: white;
+}
+.header_img {
+  width: 1000px;
+}
+.website > .banner1 {
+  background-color: white;
+  text-align: right;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.img_banner1 {
+  width: 300px;
+  text-align: right;
+}
+.website > .banner2 {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.img_banner2 {
+  width: 300px;
+  text-align: center;
+}
+.website > .banner3 {
+  background-color: white;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.img_banner3 {
+  width: 300px;
+  text-align: left;
+}
+.website > .link {
+  background-color: #ffe718;
+  padding: 20px 40px;
+}
+.Big_text, .Small_text, .Info_button {
+  display: inline;
+}
+.Big_text {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222931;
+}
+.Small_text {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222931;
+}
+.Info_button {
+  margin: 0px 0px 0px 300px;
+  background-color: white;
+  padding: 10px 20px;
+  color: #222931;
+  border: none;
+}
+.Info_button:hover {
+  background-color: #222931;
+  color: white;
+}
+.website > .main {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer_img {
+  width: 1000px;
+  position: relative;
+}
+.Deals {
+  position: absolute;
+  position: relative;
+  background-color: #ffe718;
+  padding: 20px 40px;
+  margin: 0px 25px;
+  border: none;
+}
+.Deals:hover {
+  background-color: #222931;
+  color: white;
+}
+.deals1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+}
+.deals2 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+#handshake {
+  font-size: 40px;
+  margin: 10px 0px;
+  float: left;
+}
+.Diensten {
+  position: absolute;
+  position: relative;
+  background-color: #ffe718;
+  padding: 20px 40px;
+  margin: 0px 25px;
+  border: none;
+}
+.Diensten:hover {
+  background-color: #222931;
+  color: white;
+}
+.diensten1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+}
+.diensten2 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+#toolbox {
+  font-size: 40px;
+  margin: 10px 0px;
+  float: left;
+}
+.Contacten {
+  position: absolute;
+  position: relative;
+  background-color: #ffe718;
+  padding: 20px 40px;
+  margin: 0px 25px;
+  border: none;
+}
+.Contacten:hover {
+  background-color: #222931;
+  color: white;
+}
+.contacten1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+}
+.contacten2 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+#envelope {
+  font-size: 40px;
+  margin: 10px 0px;
+  float: left;
+}
+.website > .left-footer {
+  background-color: white;
+  text-align: center;
+  padding: 20px 60px;
+}
+.L-Titel {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+}
+.L-Text {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+}
+.website > .right-footer {
+  background-color: white;
+  text-align: center;
+  padding: 20px 60px;
+  font-size: 12px;
+}
+.R-Titel {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+}
+.R-Text {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5f656d;
+}
+.website > .footer {
+  background-color: #222931;
+  text-align: right;
+  padding: 10px 60px;
+  font-size: 12px;
+  color: white;
+}
