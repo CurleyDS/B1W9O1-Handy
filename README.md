@@ -1,3 +1,5 @@
+# (Deze repository is van mijn vorige opleiding)
+
 # Da Vinci Handy
 
 Het Da Vinci gaat uitbreiden. Vanaf volgende week starten zij met hun 'handige bouwservice'. Daarvoor zouden ze graag een fancy website willen hebben voorzien van de nieuwste technieken, positioneringen en mooie 'hovers'. Ze hebben een webdesigner in de arm genomen en die is met het bijgevoegde ontwerp gekomen. Het is aan jou de taak om dit ontwerp zo goed mogelijk na te bouwen in HTML en CSS.
