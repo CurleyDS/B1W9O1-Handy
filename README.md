@@ -1,4 +1,4 @@
-# (Deze repository is van mijn vorige opleiding)
+# Notice: Deze repository is van mijn vorige opleiding!
 
 # Da Vinci Handy
 
